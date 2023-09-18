@@ -19,7 +19,7 @@ public class Arreglo {
         for (int i = 0; i < notas.length; i++) {
 
             System.out.print("Estudiante ["+ (i+1) +"] = ");
-            nombreEstudante[i] = lector.nextLine();
+            nombreEstudante[i] = lector.next();
 
             System.out.print("Notas ["+ (i+1) +"] = ");
             notas[i] = lector.nextInt();
